@@ -23,6 +23,7 @@ class CommonAppBar extends StatelessWidget implements PreferredSizeWidget {
       title: Text(title),
       elevation: elevation,
       actions: actions,
+      centerTitle: true,
       leading: leading ??
           (automaticallyImplyLeading
               ? IconButton(

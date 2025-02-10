@@ -2,6 +2,7 @@ import 'package:auto_route/auto_route.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import '../routes/app_router.dart';
+import '../widgets/common_app_bar.dart';
 
 @RoutePage()
 class AccountSettingsPage extends StatelessWidget {
@@ -40,11 +41,7 @@ class AccountSettingsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('账号设置'),
-        backgroundColor: const Color(0xFFB52C20),
-        foregroundColor: Colors.white,
-      ),
+      appBar: const CommonAppBar(title: '账号设置'),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(16.0),
