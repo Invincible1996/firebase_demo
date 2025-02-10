@@ -1,0 +1,64 @@
+{
+    "teams":[
+        {
+            "name":"LA Lakers",
+            "city":"Los Angeles",
+            "conference":"Western",
+            "division":"Pacific"
+        },
+        {
+            "name":"Golden State Warriors",
+            "city":"San Francisco",
+            "conference":"Western",
+            "division":"Pacific"
+        },
+        {
+            "name":"Boston Celtics",
+            "city":"Boston",
+            "conference":"Eastern",
+            "division":"Atlantic"
+        },
+        {
+            "name":"Brooklyn Nets",
+            "city":"Brooklyn",
+            "conference":"Eastern",
+            "division":"Atlantic"
+        },
+        {
+            "name":"Chicago Bulls",
+            "city":"Chicago",
+            "conference":"Eastern",
+            "division":"Central"
+        },
+        {
+            "name":"Cleveland Cavaliers",
+            "city":"Cleveland",
+            "conference":"Eastern",
+            "division":"Central"
+        },
+        {
+            "name":"Dallas Mavericks",
+            "city":"Dallas",
+            "conference":"Western",
+            "division":"Southwest"
+        },
+        {
+            "name":"Houston Rockets",
+            "city":"Houston",
+            "conference":"Western",
+            "division":"Southwest"
+        },
+        {
+            "name":"Miami Heat",
+            "city":"Miami",
+            "conference":"Eastern",
+            "division":"Southeast"
+        },
+        {
+            "name":"Orlando Magic",
+            "city":"Orlando",
+            "conference":"Eastern",
+            "division":"Southeast"
+        }
+    ]
+}
